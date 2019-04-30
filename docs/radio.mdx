@@ -1,0 +1,28 @@
+---
+name: Radio
+---
+
+import { Playground, Props } from 'docz'
+import { Radio, Fieldset, Window, WindowContent } from '../components'
+
+# Radio
+
+Documentation for Windows95 developers
+
+<Props of={ Radio } />
+
+## Usage
+
+<Playground>
+  <Window>
+    <WindowContent>
+      <Fieldset label="Party food">
+        <Radio checked value="steak" label="Steak 🥩" name="food" />
+        <br />
+        <Radio value="tortilla" label="Tortilla 🌯" name="food" />
+        <br />
+        <Radio value="pizza" label="Pizza 🍕" name="food" disabled />
+      </Fieldset>
+    </WindowContent>
+  </Window>
+</Playground>
