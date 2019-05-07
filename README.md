@@ -7,7 +7,7 @@ Setup project to document the components to build Windows 95.
 Navigate into the folder with the terminal. Then install dependencies with:
 
 ```shell
-npm run install
+npm install
 ```
 
 ## Run server with documentation
